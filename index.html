@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Semantic Portfolio | Areeba Khan</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="page">
+    <header id="top">
+      <p class="eyebrow">Digital Portfolio</p>
+      <h1>Rehan Khan, Designer-Developer Focused on Usable Interfaces</h1>
+      <p class="intro">
+        I craft web experiences where visual personality and clear semantics work together.
+        This page uses accessible HTML5 landmarks and content-first structure.
+      </p>
+      <nav aria-label="Primary">
+        <ul>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div>
+        <section id="projects" aria-labelledby="projects-title">
+          <h2 id="projects-title">Featured Projects</h2>
+          <div class="project-grid">
+            <article>
+              <h3>City Culture Archive</h3>
+              <p class="meta">Frontend Engineer | 2025</p>
+              <p>
+                Built a semantic storytelling platform with structured metadata, improving content discoverability and screen-reader navigation.
+              </p>
+            </article>
+            <article>
+              <h3>GreenCart Marketplace</h3>
+              <p class="meta">Product Designer + UI Developer | 2024</p>
+              <p>
+                Designed and implemented a responsive commerce flow with performance-focused components and WCAG-compliant forms.
+              </p>
+            </article>
+            <article>
+              <h3>Pulse Lab Dashboard</h3>
+              <p class="meta">Interface Specialist | 2023</p>
+              <p>
+                Restructured dashboard content hierarchy with semantic regions, reducing onboarding friction for new users.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section id="experience" aria-labelledby="experience-title">
+          <h2 id="experience-title">Experience</h2>
+          <ul class="clean">
+            <li><strong>Senior Frontend Developer, Nova Stack</strong> - 2024-Present</li>
+            <li><strong>UI Engineer, Orbit Labs</strong> - 2022-2024</li>
+            <li><strong>Web Designer, Pixel Grove Studio</strong> - 2020-2022</li>
+          </ul>
+        </section>
+      </div>
+
+      <aside>
+        <section id="skills" aria-labelledby="skills-title">
+          <h2 id="skills-title">Skills</h2>
+          <p>
+            <span class="chip">Semantic HTML</span>
+            <span class="chip">CSS Architecture</span>
+            <span class="chip">Accessibility</span>
+            <span class="chip">JavaScript</span>
+            <span class="chip">Design Systems</span>
+            <span class="chip">Performance</span>
+          </p>
+        </section>
+
+        <section id="contact" class="contact" aria-labelledby="contact-title">
+          <h2 id="contact-title">Contact</h2>
+          <p>Email: <a href="mailto:rehankhann127@gmail.com">rehankhann127@gmail.com</a></p>
+          <p>GitHub: <a href="#" aria-label="GitHub profile">rehankhan127dev</a></p>
+          <p>LinkedIn: <a href="#" aria-label="LinkedIn profile">Rehan Khan</a></p>
+        </section>
+      </aside>
+    </main>
+
+    <footer>
+      <p>&copy; <span id="year">2026</span> Areeba Khan. Built with semantic HTML, CSS, and JavaScript.</p>
+    </footer>
+  </div>
+</body>
+</html>
